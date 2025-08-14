@@ -1,0 +1,13 @@
+[project]
+name = "cli-uv-project"
+version = "0.1.0"
+description = "Pokémon CLI as a uv project."
+requires-python = ">=3.12"
+dependencies = [
+    "typer",
+    "httpx",
+    "rich"
+]
+
+[project.scripts]
+pokemon-cli = "main:app"

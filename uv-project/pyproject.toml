@@ -1,0 +1,8 @@
+[project]
+name = "uv-project"
+version = "0.1.0"
+description = "Example uv project for running a script."
+requires-python = ">=3.12"
+dependencies = [
+    "httpx"
+]
